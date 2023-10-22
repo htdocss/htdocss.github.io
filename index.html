@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>СТАТУСНЫЕ ЭФФЕКТЫ</title>
+	<style>
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+	</style>
 </head>
-<body style="background-color: #a9b1bc;">
-    <div style='max-width: 390px; background-color: #a9b1bc;' id="main-page">
+<body>
+    <div style='max-width: 390px;' id="main-page">
         <h1>СТАТУСНЫЕ ЭФФЕКТЫ</h1>
         <input type="text" id="search" placeholder="ПОИСК ЭФФЕКТА">
         <ul id="category-list">
@@ -86,7 +94,7 @@
 			
     </div>
 
-    <div id="category-page" style="display: none; max-width: 390px; background-color: #a9b1bc;">
+    <div id="category-page" style="display: none; max-width: 390px;">
         <button id="back-button">Back</button>
         <div id="category-content"></div>
     </div>
