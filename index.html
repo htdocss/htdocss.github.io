@@ -27,6 +27,14 @@ list-style-type: none;
   margin-left: -1em;
 }
 
+.input-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 92%;
+  border: 1px solid grey;
+}
+
 td {
     text-transform: uppercase;
     font-weight: 700;
@@ -79,7 +87,23 @@ td {
 
 .centered-heading {
     text-align: left;
-    font-size: 12px;
+	padding: 5px 0px 0px 5px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.centered-heading2 {
+    text-align: left;
+	padding: 0px 0px 10px 5px;
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.centered-heading3 {
+    text-align: center;
+    font-size: 8px;
     font-family: Arial, sans-serif;
     font-weight: bold;
 }
@@ -96,7 +120,8 @@ td {
 <body>
 <div id="main-page" style="display: block;">
         <h1 style="font-size:16px; font-family: Arial; font-weight:bold; text-align:center;">СТАТУСНЫЕ ЭФФЕКТЫ</h1>
-        <input type="text" id="search" placeholder="ПОИСК ЭФФЕКТА">
+        <div class='search'><input class="input-block" type="text" id="search" placeholder="ПОИСК ЭФФЕКТА">
+		        <div class='centered-heading3'>ПОЛОЖИТЕЛЬНЫЕ НЕГАТИВНЫЕ НЕЙТРАЛЬНЫЕ</h1></div></div>
 <ul id="category-list">
 
 
@@ -109,6 +134,7 @@ td {
 			<td>
 			
 			<div class='centered-heading'>ПЕРСОНАЖИ</div>
+			<div class='centered-heading2'>ПЕРСОНАЖИ которые накладывают эффект.</div>
 			
             <div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/1/1d/Unit-Character-Bastila_Shan-portrait.png/75px-Unit-Character-Bastila_Shan-portrait.png' >
@@ -132,7 +158,8 @@ td {
 			<td>
 			
 			<div class='centered-heading'>КОРАБЛИ</div>
-
+			<div class='centered-heading2'>КОРАБЛИ которые накладывают эффект.</div>
+			
 			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/2/29/Unit-Ship-Han%27s_Millennium_Falcon-portrait.png/75px-Unit-Ship-Han%27s_Millennium_Falcon-portrait.png' >
 			<div class='centered-text'>СОКОЛ ТЫСЯЧЕЛЕТИЯ ХАНА</div>
@@ -144,7 +171,8 @@ td {
 			<tr>
 			<td>
 			<div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
-
+			<div class='centered-heading2'>КОРАБЛИ которые накладывают эффект.</div>
+			
 			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
             <div class='centered-text'>ЗВЕЗДНЫЙ ИСТРЕБИТЕЛЬ ЭНАКИНА ЭТА-2</div>
@@ -162,7 +190,7 @@ td {
 
 ">
 <div class="custom-di">		
-<img src="./СТАТУСНЫЕ ЭФФЕКТЫ_files/Status_Effect-Accuracy_Up.png"><div class="text">ПОВЫШЕНИЕ ТОЧНОСТИ</div>
+<img src="https://swgoh.wiki/images/2/2e/Status_Effect-Accuracy_Up.png"><div class="text">ПОВЫШЕНИЕ ТОЧНОСТИ</div>
 </div>		
 </li>
 <!-- ПОВЫШЕНИЕ ТОЧНОСТИ (КОНЕЦ) -->		
@@ -176,6 +204,7 @@ td {
 			<td>
 			
 			<div class='centered-heading'>ПЕРСОНАЖИ</div>
+			<div class='centered-heading2'>Персонажи которые накладывают эффект.</div>
 			
             <div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/1/1d/Unit-Character-Bastila_Shan-portrait.png/75px-Unit-Character-Bastila_Shan-portrait.png' >
@@ -251,7 +280,7 @@ td {
 ">
 
 <div class="custom-di">		
-<img src="./СТАТУСНЫЕ ЭФФЕКТЫ_files/Status_Effect-Advantage.png"><div class="text">ПРЕИМУЩЕСТВО</div>
+<img src="https://swgoh.wiki/images/e/e3/Status_Effect-Advantage.png"><div class="text">ПРЕИМУЩЕСТВО</div>
 </div>
 </li>
 <!-- ПРЕИМУЩЕСТВО (КОНЕЦ) -->
