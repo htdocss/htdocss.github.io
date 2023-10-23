@@ -14,6 +14,12 @@ tr {
 	display : grid;
 }
 
+li {
+  font-family: Arial, sans-serif;
+  display: inline-block; 
+  margin-left: -1em;
+}
+
 td {
     text-transform: uppercase;
     font-weight: 700;
@@ -51,18 +57,21 @@ td {
     border-radius: 50%;
 }
 
-.center-divs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.custom-di {
+	display : flex;
 }
 
-.centered-contents {
-    text-align: center;
+.custom-di img {
+    width: 30px;
+    height: 30px;
+}
+
+.custom-di .text {
+	margin: 8px 0px 0px 5px;
 }
 
 .centered-heading {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
     font-family: Arial, sans-serif;
     font-weight: bold;
@@ -78,153 +87,165 @@ td {
     <title>СТАТУСНЫЕ ЭФФЕКТЫ</title>
 </head>
 <body>
-    <div id="main-page">
+<div id="main-page">
         <h1 style='font-size:16px; font-family: Arial; font-weight:bold; text-align:center;'>СТАТУСНЫЕ ЭФФЕКТЫ</h1>
         <input type="text" id="search" placeholder="ПОИСК ЭФФЕКТА">
-        <ul id="category-list">
-		
-            <li data-content="
+<ul id="category-list">
+
+
+<!-- ПОВЫШЕНИЕ ТОЧНОСТИ (НАЧАЛО) -->		
+<li data-content="
 			
-				<table class='custom-table'>
-					<tr>
-					<td>
-					<div class='centered-heading'>ПЕРСОНАЖИ</div>
-            
-			    <div class='center-divs'>
-				<div class='centered-contents'>
+			<table class='custom-table'>
+				
+			<tr>
+			<td>
 			
+			<div class='centered-heading'>ПЕРСОНАЖИ</div>
 			
-			<div class='custom-div'>
+            <div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/1/1d/Unit-Character-Bastila_Shan-portrait.png/75px-Unit-Character-Bastila_Shan-portrait.png' >
             <div class='centered-text'>БАСТИЛА ШАН</div>
             </div>
+			
             <div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/2/20/Unit-Character-Eighth_Brother-portrait.png/75px-Unit-Character-Eighth_Brother-portrait.png' >
             <div class='centered-text'>ВОСЬМОЙ БРАТ</div>
             </div>
+			
             <div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/e/ee/Unit-Character-Scarif_Rebel_Pathfinder-portrait.png/75px-Unit-Character-Scarif_Rebel_Pathfinder-portrait.png' >
             <div class='centered-text'>ПОВСТАНЕЦ СЛЕДОПЫТ СО СКАРИФА</div>
             </div>
-			</div>
-			</div>	
-        </td>
-    </tr>
-    <tr>
-        <td>
-    <div class='centered-heading'>КОРАБЛИ</div>
-					<div class='center-divs'>
-					<div class='centered-contents'>
-							<div class='custom-div'>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			
+			<div class='centered-heading'>КОРАБЛИ</div>
+
+			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/2/29/Unit-Ship-Han%27s_Millennium_Falcon-portrait.png/75px-Unit-Ship-Han%27s_Millennium_Falcon-portrait.png' >
-            <div class='centered-text'>СОКОЛ ТЫСЯЧЕЛЕТИЯ ХАНА</div>
-						</div>
-						</div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-    <div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
-			    <div class='center-divs'>
-				<div class='centered-contents'>
-							<div class='custom-div'>
+			<div class='centered-text'>СОКОЛ ТЫСЯЧЕЛЕТИЯ ХАНА</div>
+            </div>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
+
+			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
             <div class='centered-text'>ЗВЕЗДНЫЙ ИСТРЕБИТЕЛЬ ЭНАКИНА ЭТА-2</div>
             </div>
-			    <div class='center-divs'>
-				<div class='centered-contents'>
-							<div class='custom-div'>
+			
+			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/0/02/Unit-Ship-Hyena_Bomber-portrait.png/75px-Unit-Ship-Hyena_Bomber-portrait.png' >
             <div class='centered-text'>БОМБАРДИРОВЩИК ГИЕНА</div>
             </div>		
 			
-        </td>
-    </tr>
-</table>
+			</td>
+			</tr>
+			
+			</table>
 
-			">
-			
-			<img src='https://swgoh.wiki/images/2/2e/Status_Effect-Accuracy_Up.png' alt='Category C Image' width="30" height="30">Повышение точности</li>
-			
+">
+<div class='custom-di'>		
+<img src='https://swgoh.wiki/images/2/2e/Status_Effect-Accuracy_Up.png' ><div class='text'>ПОВЫШЕНИЕ ТОЧНОСТИ</div>
+</div>		
+</li>
+<!-- ПОВЫШЕНИЕ ТОЧНОСТИ (КОНЕЦ) -->		
+
+<!-- ПРЕИМУЩЕСТВО (НАЧАЛО) -->		
 <li data-content="
 			
-<table class='custom-table'>
-    <tr>
-        <td>
-    <div class='centered-heading'>ПЕРСОНАЖИ</div>
-            
-			    <div class='center-divs'>
-					<div class='centered-contents'>
+			<table class='custom-table'>
+				
+			<tr>
+			<td>
 			
+			<div class='centered-heading'>ПЕРСОНАЖИ</div>
 			
-						<div class='custom-div'>
-						<img src='https://swgoh.wiki/images/thumb/9/9b/Unit-Character-50R-T-portrait.png/50px-Unit-Character-50R-T-portrait.png' >
-						<div class='centered-text'>50R-T</div>
-						</div>
-						<div class='custom-div'>
-						<img src='https://swgoh.wiki/images/thumb/1/1d/Unit-Character-BB-8-portrait.png/50px-Unit-Character-BB-8-portrait.png' >
-						<div class='centered-text'>BB-8</div>
-						</div>
-						<div class='custom-div'>
-						<img src='https://swgoh.wiki/images/thumb/3/3e/Unit-Character-Captain_Phasma-portrait.png/50px-Unit-Character-Captain_Phasma-portrait.png' >
-						<div class='centered-text'>КАПИТАН ФАЗМА</div>
-						</div>
-						<div class='custom-div'>
-						<img src='https://swgoh.wiki/images/thumb/2/2c/Unit-Character-Commander_Ahsoka_Tano-portrait.png/50px-Unit-Character-Commander_Ahsoka_Tano-portrait.png' >
-						<div class='centered-text'>КОМАНДИР АСОКА ТАНО</div>
-						</div>	
-						<div class='custom-div'>
-						<img src='https://swgoh.wiki/images/thumb/5/5a/Unit-Character-Dark_Trooper-portrait.png/50px-Unit-Character-Dark_Trooper-portrait.png' >
-						<div class='centered-text'>ТЕМНЫЙ ШТУРМОВИК</div>
-						</div>			
-						</div>
-						</div>	
-        </td>
-    </tr>
-    <tr>
-        <td>
-    <div class='centered-heading'>КОРАБЛИ</div>
             <div class='custom-div'>
-            <img src='https://swgoh.wiki/images/thumb/2/29/Unit-Ship-Han%27s_Millennium_Falcon-portrait.png/75px-Unit-Ship-Han%27s_Millennium_Falcon-portrait.png' >
-            <div class='centered-text'>СОКОЛ ТЫСЯЧЕЛЕТИЯ ХАНА</div>
+            <img src='https://swgoh.wiki/images/thumb/1/1d/Unit-Character-Bastila_Shan-portrait.png/75px-Unit-Character-Bastila_Shan-portrait.png' >
+            <div class='centered-text'>БАСТИЛА ШАН</div>
             </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-    <div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
-            <div class='custom-div'>
-            <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
-            <div class='centered-text'>ЗВЕЗДНЫЙ ИСТРЕБИТЕЛЬ ЭНАКИНА ЭТА-2</div>
-            </div>
-            <div class='custom-div'>
-            <img src='https://swgoh.wiki/images/thumb/0/02/Unit-Ship-Hyena_Bomber-portrait.png/75px-Unit-Ship-Hyena_Bomber-portrait.png' >
-            <div class='centered-text'>БОМБАРДИРОВЩИК ГИЕНА</div>
-            </div>		
 			
-        </td>
-    </tr>
-	    <tr>
-        <td>
-    <div class='centered-heading'>ФЛАГМАН : ВЫЗЫВАЯ ПОДКРЕПЛЕНИЯ</div>
             <div class='custom-div'>
-            <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
-            <div class='centered-text'>ЗВЕЗДНЫЙ ИСТРЕБИТЕЛЬ ЭНАКИНА ЭТА-2</div>
+            <img src='https://swgoh.wiki/images/thumb/2/20/Unit-Character-Eighth_Brother-portrait.png/75px-Unit-Character-Eighth_Brother-portrait.png' >
+            <div class='centered-text'>ВОСЬМОЙ БРАТ</div>
             </div>
-            <div class='custom-div'>
-            <img src='https://swgoh.wiki/images/thumb/0/02/Unit-Ship-Hyena_Bomber-portrait.png/75px-Unit-Ship-Hyena_Bomber-portrait.png' >
-            <div class='centered-text'>БОМБАРДИРОВЩИК ГИЕНА</div>
-            </div>		
 			
-        </td>
-    </tr>
-</table>
+            <div class='custom-div'>
+            <img src='https://swgoh.wiki/images/thumb/e/ee/Unit-Character-Scarif_Rebel_Pathfinder-portrait.png/75px-Unit-Character-Scarif_Rebel_Pathfinder-portrait.png' >
+            <div class='centered-text'>ПОВСТАНЕЦ СЛЕДОПЫТ СО СКАРИФА</div>
+            </div>
+			
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			
+			<div class='centered-heading'>КОРАБЛИ</div>
 
-			">
-					
-			<img src='https://swgoh.wiki/images/e/e3/Status_Effect-Advantage.png' alt='Category C Image' width="30" height="30">Преимущество</li>
+			<div class='custom-div'>
+            <img src='https://swgoh.wiki/images/thumb/2/29/Unit-Ship-Han%27s_Millennium_Falcon-portrait.png/75px-Unit-Ship-Han%27s_Millennium_Falcon-portrait.png' >
+			<div class='centered-text'>СОКОЛ ТЫСЯЧЕЛЕТИЯ ХАНА</div>
+            </div>
 			
-    </ul>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
+
+			<div class='custom-div'>
+            <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
+            <div class='centered-text'>ЗВЕЗДНЫЙ ИСТРЕБИТЕЛЬ ЭНАКИНА ЭТА-2</div>
+            </div>
+			
+			<div class='custom-div'>
+            <img src='https://swgoh.wiki/images/thumb/0/02/Unit-Ship-Hyena_Bomber-portrait.png/75px-Unit-Ship-Hyena_Bomber-portrait.png' >
+            <div class='centered-text'>БОМБАРДИРОВЩИК ГИЕНА</div>
+            </div>		
+			
+			</td>
+			</tr>
+
+			<tr>
+			<td>
+			<div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
+
+			<div class='custom-div'>
+            <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
+            <div class='centered-text'>ЗВЕЗДНЫЙ ИСТРЕБИТЕЛЬ ЭНАКИНА ЭТА-2</div>
+            </div>
+			
+			<div class='custom-div'>
+            <img src='https://swgoh.wiki/images/thumb/0/02/Unit-Ship-Hyena_Bomber-portrait.png/75px-Unit-Ship-Hyena_Bomber-portrait.png' >
+            <div class='centered-text'>БОМБАРДИРОВЩИК ГИЕНА</div>
+            </div>		
+			
+			</td>
+			</tr>
+			
+			</table>
+
+">
+
+<div class='custom-di'>		
+<img src='https://swgoh.wiki/images/e/e3/Status_Effect-Advantage.png' ><div class='text'>ПРЕИМУЩЕСТВО</div>
+</div>
+</li>
+<!-- ПРЕИМУЩЕСТВО (КОНЕЦ) -->
+			
+</ul>
 </div>
 
     <div id="category-page" style="display: none;">
