@@ -21,6 +21,27 @@ tr {
 	display : grid;
 }
 
+.square_green { 
+            background-color: #219a14; 
+            width: 6px; 
+            height: 6px; 
+display: inline-block;			
+         } 
+
+.square_red { 
+            background-color: #90151d; 
+            width: 6px; 
+            height: 6px; 
+display: inline-block;			
+         } 
+
+.square_blue { 
+            background-color: #226198; 
+            width: 6px; 
+            height: 6px; 
+display: inline-block;			
+         } 
+
 li {
 list-style-type: none; 
   font-family: Arial, sans-serif;
@@ -28,11 +49,18 @@ list-style-type: none;
 }
 
 .input-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 92%;
-  border: 1px solid grey;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 92%;
+    border: 1px solid grey;
+    font-size: 10px;
+    height: 20px;
+}
+
+.input-block:focus {
+    outline: none; /* Remove the outline when focused */
+    border: 1px solid grey; /* Optionally, you can set the border back to the original color when focused */
 }
 
 td {
@@ -82,7 +110,8 @@ td {
 }
 
 .custom-di .text {
-	margin: 8px 0px 0px 5px;
+    margin: 10px 0px 0px 5px;
+    font-size: 10px;
 }
 
 .previous {
@@ -123,6 +152,7 @@ td {
     font-size: 8px;
     font-family: Arial, sans-serif;
     font-weight: bold;
+	margin-top: 5px;
 }
 
 .centered-text {
@@ -148,7 +178,7 @@ td {
 <div id="main-page" style="display: block;">
         <h1 style="font-size:16px; font-family: Arial; font-weight:bold; text-align:center;">СТАТУСНЫЕ ЭФФЕКТЫ</h1>
         <div class='search'><input class="input-block" type="text" id="search" placeholder="ПОИСК ЭФФЕКТА">
-		        <div class='centered-heading3'>ПОЛОЖИТЕЛЬНЫЕ НЕГАТИВНЫЕ НЕЙТРАЛЬНЫЕ</h1></div></div>
+		        <div class='centered-heading3'><div class="square_green"></div> ПОЛОЖИТЕЛЬНЫЕ &nbsp;&nbsp;<div class="square_red"></div> НЕГАТИВНЫЕ &nbsp;&nbsp;<div class="square_blue"></div> НЕЙТРАЛЬНЫЕ</h1></div></div>
 <ul id="category-list">
 
 
@@ -161,7 +191,7 @@ td {
 			<td>
 			
 			<div class='centered-heading'>ПЕРСОНАЖИ</div>
-			<div class='centered-heading2'>ПЕРСОНАЖИ которые накладывают эффект.</div>
+			<div class='centered-heading2'>ПЕРСОНАЖИОПИСАНИЕ</div>
 			
             <div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/1/1d/Unit-Character-Bastila_Shan-portrait.png/75px-Unit-Character-Bastila_Shan-portrait.png' >
@@ -185,7 +215,7 @@ td {
 			<td>
 			
 			<div class='centered-heading'>КОРАБЛИ</div>
-			<div class='centered-heading2'>КОРАБЛИ которые накладывают эффект.</div>
+			<div class='centered-heading2'>КОРАБЛИОПИСАНИЕ</div>
 			
 			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/2/29/Unit-Ship-Han%27s_Millennium_Falcon-portrait.png/75px-Unit-Ship-Han%27s_Millennium_Falcon-portrait.png' >
@@ -198,7 +228,7 @@ td {
 			<tr>
 			<td>
 			<div class='centered-heading'>КОРАБЛИ : ПОДКРЕПЛЕНИЕ</div>
-			<div class='centered-heading2'>КОРАБЛИ которые накладывают эффект.</div>
+			<div class='centered-heading2'>КОРАБЛИПОДКРЕПЛЕНИЕОПИСАНИЕ</div>
 			
 			<div class='custom-div'>
             <img src='https://swgoh.wiki/images/thumb/3/36/Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png/75px-Unit-Ship-Anakin%27s_Eta-2_Starfighter-portrait.png' >
